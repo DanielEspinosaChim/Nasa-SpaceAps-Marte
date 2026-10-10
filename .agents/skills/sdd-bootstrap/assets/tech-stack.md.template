@@ -1,0 +1,31 @@
+# Tech Stack
+
+## Lenguaje
+
+[...]
+
+## Framework / runtime
+
+[...]
+
+## Base de datos
+
+[...]
+
+## Testing
+
+[Framework de tests + tipos de test que se esperan: unit, integración, E2E.]
+
+## Otras herramientas relevantes
+
+[Linter, formateador, gestor de paquetes, CI/CD si ya está decidido.]
+
+## Convenciones de versión
+
+[Versión mínima de lenguaje/runtime si es relevante, ej. "Node 22+".]
+
+---
+
+*Decidido en la entrevista inicial. Si se cambia algo del stack más
+adelante, actualizar este archivo primero (nivel spec-anchored) antes de
+tocar código.*

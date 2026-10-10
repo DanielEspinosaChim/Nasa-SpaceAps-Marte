@@ -1,0 +1,30 @@
+# Spec — [Nombre de la feature]
+
+## Qué hace
+
+[2-3 frases describiendo la funcionalidad.]
+
+## Módulos que toca
+
+- [ ] Backend
+- [ ] Frontend
+
+## Depende de
+
+- [feature previa que debe existir, o "Ninguna" si es la primera]
+
+## Fuera de alcance
+
+- [qué NO incluye esta feature explícitamente]
+
+## Criterios de aceptación
+
+Verificables y no ambiguos — cada uno debe poder probarse con un test.
+
+1. [criterio 1]
+2. [criterio 2]
+3. [criterio 3]
+4. [criterio 4]
+5. [criterio 5]
+
+<!-- Agregar más criterios según la complejidad real de la feature. -->

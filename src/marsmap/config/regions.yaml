@@ -1,0 +1,9 @@
+# Regiones de demostración. bbox = [lon_min, lat_min, lon_max, lat_max],
+# longitud −180..180 positiva al Este, latitud planetocéntrica (Mars 2000).
+regions:
+  - region_id: jezero
+    name: Cráter Jezero
+    bbox: [77.0, 18.0, 78.0, 18.9]
+    description: >-
+      Cráter de ~45 km con un delta fluvial antiguo; sitio de aterrizaje de
+      Perseverance (Mars 2020), centro aproximado 18.4° N, 77.5° E.

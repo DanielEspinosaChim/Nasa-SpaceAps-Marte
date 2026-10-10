@@ -1,0 +1,42 @@
+# Tasks — [Nombre de la feature]
+
+Checklist de tareas atómicas y verificables. Marcar `[x]` solo cuando esté
+implementado Y verificado, no solo escrito.
+
+## Backend
+
+- [ ] [tarea atómica 1]
+- [ ] [tarea atómica 2]
+
+## Frontend
+
+- [ ] [tarea atómica 1]
+- [ ] [tarea atómica 2]
+
+## Tests unitarios
+
+- [ ] [test 1]
+- [ ] [test 2]
+
+## Tests de integración
+
+- [ ] [test 1]
+
+## Tests de seguridad
+
+- [ ] Validación de inputs cubierta con test
+- [ ] Control de acceso cubierto con test (usuario sin permiso no puede acceder)
+- [ ] Test de aislamiento multi-tenant (si aplica a este proyecto)
+- [ ] Revisar contra `spec/features/000-seguridad-transversal/spec.md`
+      antes de mergear
+
+## E2E
+
+- [ ] [flujo end-to-end principal de la feature]
+
+---
+
+*Al completar una tarea, márcala con `[x]`. Si surge una tarea nueva no
+prevista, agrégala al final de su sección correspondiente en vez de
+modificar las ya existentes. Si una tarea queda parcial, déjala en `[ ]`
+con una nota `<!-- parcial: falta X -->`.*

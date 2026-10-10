@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mars Scout — mapa por capas de Marte</title>
+    <meta name="description" content="Rover simulado que planifica misiones sobre capas de terreno de Marte." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c1440e'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Mars Scout</h1>
+      <p class="subtitle" id="region-name">Cargando región…</p>
+    </header>
+    <div class="layout">
+      <aside class="sidebar" aria-label="Paneles de control">
+        <section class="panel" aria-labelledby="h-layers">
+          <h2 id="h-layers">Capas</h2>
+          <div id="layers-panel"></div>
+        </section>
+        <section class="panel" aria-labelledby="h-route">
+          <h2 id="h-route">Ruta (A*)</h2>
+          <div id="route-panel"></div>
+        </section>
+        <section class="panel" aria-labelledby="h-mission">
+          <h2 id="h-mission">Misión (genético)</h2>
+          <div id="mission-panel"></div>
+        </section>
+      </aside>
+      <main class="map-wrap">
+        <div id="map" role="application" aria-label="Mapa de Marte por capas"></div>
+        <div id="mode-hint" class="mode-hint" role="status" hidden></div>
+        <p class="map-note">Proyección Mercator: distorsión ~5% a 18° de latitud. Las distancias las calcula el servidor.</p>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="alert" hidden></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

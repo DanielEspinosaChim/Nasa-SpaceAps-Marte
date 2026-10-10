@@ -1,0 +1,27 @@
+# Roadmap
+
+Orden de construcción de las features, de la más fundacional a la más
+opcional. Los números de feature (00X) corresponden a las carpetas en
+`spec/features/`.
+
+## MVP — construir primero
+
+1. **[001-nombre-feature]** — [una línea de qué hace y por qué va primero
+   (ej. de qué depende el resto)]
+2. **[002-nombre-feature]** — [...]
+3. **[003-nombre-feature]** — [...]
+
+## Siguiente etapa
+
+4. **[004-nombre-feature]** — [...]
+5. **[005-nombre-feature]** — [...]
+
+## Backlog / ideas futuras (sin priorizar todavía)
+
+- [feature sugerida, sin número de carpeta asignado aún]
+- [feature sugerida, sin número de carpeta asignado aún]
+
+---
+
+*Este roadmap se ajusta con el tiempo. Antes de reordenar prioridades,
+actualízalo aquí primero.*

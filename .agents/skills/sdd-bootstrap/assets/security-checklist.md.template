@@ -1,0 +1,51 @@
+# Checklist de seguridad transversal
+
+Referencia fija que se usa para auditar **cualquier** módulo del proyecto
+antes de mergear. No es específico de una feature — aplica a todas.
+
+## Los 11 puntos
+
+1. **Validación de inputs**: todo input de usuario se valida en tipo,
+   formato y longitud antes de usarse.
+2. **Control de acceso**: cada endpoint verifica autenticación Y
+   autorización (no basta con saber que el usuario está logueado).
+3. **Aislamiento multi-tenant**: [Aplica / No aplica — completar según el
+   proyecto]. Si aplica: un usuario/cliente nunca puede leer ni modificar
+   datos de otro tenant.
+4. **Manejo de secrets**: ninguna credencial, token o llave está
+   hardcodeada ni se sube al repositorio (`.env*` en `.gitignore`).
+5. **Protección contra inyecciones**: SQL, NoSQL, comandos de sistema —
+   nunca se concatenan inputs directamente en queries o comandos.
+6. **Protección XSS/CSRF**: en cualquier superficie web que renderice
+   contenido generado por usuarios.
+7. **Rate limiting**: en endpoints públicos o sensibles (login, registro,
+   recuperación de contraseña, APIs de escritura).
+8. **Logging seguro**: nunca se registran contraseñas, tokens, ni datos
+   personales sensibles en texto plano en los logs.
+9. **Manejo de errores**: los mensajes de error al cliente no filtran
+   stack traces, rutas internas, ni versiones de librerías.
+10. **Dependencias**: sin vulnerabilidades conocidas (CVEs) sin mitigar o
+    justificar.
+11. **Subida de archivos** (si aplica): validación por tipo real (no solo
+    extensión), tamaño máximo, y almacenamiento fuera de rutas ejecutables.
+
+## Formato de auditoría
+
+Al auditar un módulo contra este checklist, reportar en el siguiente
+formato:
+
+```
+Módulo: [nombre]
+Fecha: [fecha]
+
+1. Validación de inputs — [OK / P0 / P1 / P2 / No aplica] — [detalle si hay hallazgo]
+2. Control de acceso — [...]
+...
+11. Subida de archivos — [...]
+
+Resultado final: APROBADO / APROBADO CON OBSERVACIONES / RECHAZADO
+```
+
+- **P0**: crítico, bloquea el merge.
+- **P1**: importante, debe resolverse pronto pero no bloquea si hay plan.
+- **P2**: menor, mejora recomendada.

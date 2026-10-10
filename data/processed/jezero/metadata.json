@@ -1,0 +1,97 @@
+{
+  "region_id": "jezero",
+  "width": 296,
+  "height": 267,
+  "layers": [
+    {
+      "layer_id": "elevation",
+      "name": "Elevación",
+      "units": "m (datum Mars 2000)",
+      "file": "elevation.tif",
+      "source_dataset": "MOLA_HRSC_Blend_200m_v2",
+      "instrument": "MGS MOLA + MEX HRSC",
+      "resolution_m": 200.0,
+      "crs": "+proj=longlat +R=3396190 +no_defs +type=crs",
+      "bbox": [
+        77.0,
+        18.0,
+        78.0,
+        18.9
+      ],
+      "generated_at": "2026-10-09T13:23:16Z",
+      "limitations": "Elevación media de celda; no resuelve rocas ni escarpes menores que la celda. Proyección lon/lat: el mapa web distorsiona ~5% a 18° de latitud."
+    },
+    {
+      "layer_id": "slope",
+      "name": "Pendiente",
+      "units": "grados",
+      "file": "slope.tif",
+      "source_dataset": "MOLA_HRSC_Blend_200m_v2",
+      "instrument": "MGS MOLA + MEX HRSC",
+      "resolution_m": 200.0,
+      "crs": "+proj=longlat +R=3396190 +no_defs +type=crs",
+      "bbox": [
+        77.0,
+        18.0,
+        78.0,
+        18.9
+      ],
+      "generated_at": "2026-10-09T13:23:16Z",
+      "limitations": "Pendiente promedio a escala de celda; subestima pendientes locales más cortas. Proyección lon/lat: el mapa web distorsiona ~5% a 18° de latitud."
+    },
+    {
+      "layer_id": "roughness",
+      "name": "Rugosidad",
+      "units": "m (desv. estándar 3×3)",
+      "file": "roughness.tif",
+      "source_dataset": "MOLA_HRSC_Blend_200m_v2",
+      "instrument": "MGS MOLA + MEX HRSC",
+      "resolution_m": 200.0,
+      "crs": "+proj=longlat +R=3396190 +no_defs +type=crs",
+      "bbox": [
+        77.0,
+        18.0,
+        78.0,
+        18.9
+      ],
+      "generated_at": "2026-10-09T13:23:16Z",
+      "limitations": "Rugosidad a escala de 3 celdas; no detecta rocas individuales. Proyección lon/lat: el mapa web distorsiona ~5% a 18° de latitud."
+    },
+    {
+      "layer_id": "hillshade",
+      "name": "Sombreado del relieve",
+      "units": "0–255",
+      "file": "hillshade.tif",
+      "source_dataset": "MOLA_HRSC_Blend_200m_v2",
+      "instrument": "MGS MOLA + MEX HRSC",
+      "resolution_m": 200.0,
+      "crs": "+proj=longlat +R=3396190 +no_defs +type=crs",
+      "bbox": [
+        77.0,
+        18.0,
+        78.0,
+        18.9
+      ],
+      "generated_at": "2026-10-09T13:23:16Z",
+      "limitations": "Visualización (azimut 315°, altitud 45°); sin valor físico. Proyección lon/lat: el mapa web distorsiona ~5% a 18° de latitud."
+    },
+    {
+      "layer_id": "traversability",
+      "name": "Transitabilidad",
+      "units": "0 segura, 1 riesgo, 2 bloqueada",
+      "file": "traversability.tif",
+      "source_dataset": "MOLA_HRSC_Blend_200m_v2",
+      "instrument": "MGS MOLA + MEX HRSC",
+      "resolution_m": 200.0,
+      "crs": "+proj=longlat +R=3396190 +no_defs +type=crs",
+      "bbox": [
+        77.0,
+        18.0,
+        78.0,
+        18.9
+      ],
+      "generated_at": "2026-10-09T13:23:16Z",
+      "limitations": "Solo por pendiente (umbrales de Perseverance 10°/15°); no ve arena blanda ni rocas. Proyección lon/lat: el mapa web distorsiona ~5% a 18° de latitud."
+    }
+  ]
+}

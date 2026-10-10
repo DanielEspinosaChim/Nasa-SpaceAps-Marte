@@ -1,0 +1,34 @@
+# Plan — [Nombre de la feature]
+
+## Enfoque técnico
+
+[Descripción del enfoque elegido y por qué, en 2-4 frases.]
+
+## Archivos a crear/modificar
+
+- `[ruta exacta del archivo]` — [qué se crea o modifica ahí]
+- `[ruta exacta del archivo]` — [...]
+
+## Endpoints
+
+| Método | Path | Descripción |
+|---|---|---|
+| [GET/POST/PUT/DELETE] | `/[ruta]` | [qué hace] |
+
+## Modelo de datos
+
+| Campo | Tipo | Notas |
+|---|---|---|
+| [campo] | [tipo] | [ej. requerido, único, índice] |
+
+## Flujo técnico paso a paso
+
+1. [paso 1]
+2. [paso 2]
+3. [paso 3]
+
+## Consideraciones de seguridad específicas de esta feature
+
+[Además del checklist transversal en 000-seguridad-transversal, cualquier
+punto específico de esta feature — ej. si maneja archivos, pagos, datos
+sensibles.]

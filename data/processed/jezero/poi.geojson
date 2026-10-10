@@ -1,0 +1,519 @@
+{
+  "type": "FeatureCollection",
+  "name": "Sitios de muestras de Mars 2020 como puntos de interés",
+  "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+  "retrieved_at": "2026-10-09T13:37:38Z",
+  "science_value_note": "Rúbrica del proyecto (tipo de muestra + litología), no un dato de NASA.",
+  "landing_site": {
+    "lat": 18.44462715,
+    "lon": 77.45088572
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.45167282,
+          18.4276677
+        ]
+      },
+      "properties": {
+        "poi_id": "s1_roubion",
+        "name": "Roubion (Polygon Valley)",
+        "science_value": 0.2,
+        "dwell_time_h": 0.5,
+        "category": "polygon_valley",
+        "rationale": "Muestra tomada por Perseverance en Polygon Valley (Atmospheric; litología según NASA: n/a). Valor científico 0.20 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "164",
+        "location": "Polygon Valley",
+        "sample_type": "Atmospheric",
+        "rock_type": "n/a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.44432638,
+          18.43073498
+        ]
+      },
+      "properties": {
+        "poi_id": "s2_3_montdenier_montagnac",
+        "name": "Montdenier + Montagnac (Artuby Ridge)",
+        "science_value": 0.8,
+        "dwell_time_h": 4.0,
+        "category": "artuby_ridge",
+        "rationale": "Muestra tomada por Perseverance en Artuby Ridge (Rock Core; litología según NASA: Igneous). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "194 & 196",
+        "location": "Artuby Ridge",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.44305448,
+          18.43398032
+        ]
+      },
+      "properties": {
+        "poi_id": "s4_5_salette_coulettes",
+        "name": "Salette + Coulettes (South Séítah)",
+        "science_value": 0.8,
+        "dwell_time_h": 4.0,
+        "category": "south_seitah",
+        "rationale": "Muestra tomada por Perseverance en South Séítah (Rock Core; litología según NASA: Igneous). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "262 & 271",
+        "location": "South Séítah",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.44134387,
+          18.4326357
+        ]
+      },
+      "properties": {
+        "poi_id": "s6_7_robine_malay",
+        "name": "Robine + Malay (South Séítah)",
+        "science_value": 0.8,
+        "dwell_time_h": 4.0,
+        "category": "south_seitah",
+        "rationale": "Muestra tomada por Perseverance en South Séítah (Rock Core; litología según NASA: Igneous). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "298 & 337",
+        "location": "South Séítah",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.45242176,
+          18.44386406
+        ]
+      },
+      "properties": {
+        "poi_id": "s8_9_ha_ahoni_atsa",
+        "name": "Ha'ahóni + Atsá (Octavia E. Butler Landing/Ch’ał outcrop)",
+        "science_value": 0.8,
+        "dwell_time_h": 4.0,
+        "category": "octavia_e_butler_landing_cha_outcrop",
+        "rationale": "Muestra tomada por Perseverance en Octavia E. Butler Landing/Ch’ał outcrop (Rock Core; litología según NASA: Igneous). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "371 & 377",
+        "location": "Octavia E. Butler Landing/Ch’ał outcrop",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.40617493,
+          18.45893136
+        ]
+      },
+      "properties": {
+        "poi_id": "s10_11_swift_run_skyland",
+        "name": "Swift Run + Skyland (Fan Front)",
+        "science_value": 0.95,
+        "dwell_time_h": 4.0,
+        "category": "fan_front",
+        "rationale": "Muestra tomada por Perseverance en Fan Front (Rock Core; litología según NASA: Sedimentary). Valor científico 0.95 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "490 & 495",
+        "location": "Fan Front",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.40588851,
+          18.45863707
+        ]
+      },
+      "properties": {
+        "poi_id": "s12_13_hazeltop_bearwallow",
+        "name": "Hazeltop + Bearwallow (Fan Front)",
+        "science_value": 0.95,
+        "dwell_time_h": 4.0,
+        "category": "fan_front",
+        "rationale": "Muestra tomada por Perseverance en Fan Front (Rock Core; litología según NASA: Sedimentary). Valor científico 0.95 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "509 & 516",
+        "location": "Fan Front",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.40144029,
+          18.45072631
+        ]
+      },
+      "properties": {
+        "poi_id": "s14_15_shuyak_mageik",
+        "name": "Shuyak + Mageik (Fan Front)",
+        "science_value": 0.95,
+        "dwell_time_h": 4.0,
+        "category": "fan_front",
+        "rationale": "Muestra tomada por Perseverance en Fan Front (Rock Core; litología según NASA: Sedimentary). Valor científico 0.95 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "575 & 579",
+        "location": "Fan Front",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.39911421,
+          18.45363597
+        ]
+      },
+      "properties": {
+        "poi_id": "s16_kukaklek",
+        "name": "Kukaklek (Fan Front)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "fan_front",
+        "rationale": "Muestra tomada por Perseverance en Fan Front (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "631",
+        "location": "Fan Front",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.40121811,
+          18.45131442
+        ]
+      },
+      "properties": {
+        "poi_id": "s17_18_atmo_mountain_crosswind_lake",
+        "name": "Atmo Mountain + Crosswind Lake (Fan Front)",
+        "science_value": 0.65,
+        "dwell_time_h": 3.0,
+        "category": "fan_front",
+        "rationale": "Muestra tomada por Perseverance en Fan Front (Regolith; litología según NASA: Likely mixed sedimentary and igneous grains). Valor científico 0.65 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "634 & 639",
+        "location": "Fan Front",
+        "sample_type": "Regolith",
+        "rock_type": "Likely mixed sedimentary and igneous grains"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.38394465,
+          18.47021736
+        ]
+      },
+      "properties": {
+        "poi_id": "s19_melyn",
+        "name": "Melyn (Upper Fan)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "upper_fan",
+        "rationale": "Muestra tomada por Perseverance en Upper Fan (Rock Core; litología según NASA: Likely mixed sedimentary and igneous grains). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "749",
+        "location": "Upper Fan",
+        "sample_type": "Rock Core",
+        "rock_type": "Likely mixed sedimentary and igneous grains"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.36815348,
+          18.4829798
+        ]
+      },
+      "properties": {
+        "poi_id": "s20_otis_peak",
+        "name": "Otis Peak (Upper Fan)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "upper_fan",
+        "rationale": "Muestra tomada por Perseverance en Upper Fan (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "822",
+        "location": "Upper Fan",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3604692,
+          18.48380149
+        ]
+      },
+      "properties": {
+        "poi_id": "s21_pilot_mountain",
+        "name": "Pilot Mountain (Upper Fan)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "upper_fan",
+        "rationale": "Muestra tomada por Perseverance en Upper Fan (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "913",
+        "location": "Upper Fan",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.35065098,
+          18.48344692
+        ]
+      },
+      "properties": {
+        "poi_id": "s22_pelican_point",
+        "name": "Pelican Point (Margin)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "margin",
+        "rationale": "Muestra tomada por Perseverance en Margin (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "923",
+        "location": "Margin",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.35065098,
+          18.48344692
+        ]
+      },
+      "properties": {
+        "poi_id": "s23_lefroy_bay",
+        "name": "Lefroy Bay (Margin)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "margin",
+        "rationale": "Muestra tomada por Perseverance en Margin (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "942",
+        "location": "Margin",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3272192,
+          18.49186664
+        ]
+      },
+      "properties": {
+        "poi_id": "s24_comet_geyser",
+        "name": "Comet Geyser (Margin)",
+        "science_value": 0.95,
+        "dwell_time_h": 2.0,
+        "category": "margin",
+        "rationale": "Muestra tomada por Perseverance en Margin (Rock Core; litología según NASA: Silica-cemented Carbonate). Valor científico 0.95 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1088",
+        "location": "Margin",
+        "sample_type": "Rock Core",
+        "rock_type": "Silica-cemented Carbonate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.30514915,
+          18.49747434
+        ]
+      },
+      "properties": {
+        "poi_id": "s25_sapphire_canyon",
+        "name": "Sapphire_Canyon (Neretva Vallis)",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "neretva_vallis",
+        "rationale": "Muestra tomada por Perseverance en Neretva Vallis (Rock Core; litología según NASA: Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1215",
+        "location": "Neretva Vallis",
+        "sample_type": "Rock Core",
+        "rock_type": "Sedimentary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.26474449,
+          18.46059241
+        ]
+      },
+      "properties": {
+        "poi_id": "s26_silver_mountain",
+        "name": "Silver Mountain (Crater Rim (Witch Hazel Hill))",
+        "science_value": 0.8,
+        "dwell_time_h": 2.0,
+        "category": "crater_rim_witch_hazel_hill",
+        "rationale": "Muestra tomada por Perseverance en Crater Rim (Witch Hazel Hill) (Rock Core; litología según NASA: Igneous/impactite). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1401",
+        "location": "Crater Rim (Witch Hazel Hill)",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous/impactite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.26465918,
+          18.46059266
+        ]
+      },
+      "properties": {
+        "poi_id": "s27_green_gardens",
+        "name": "Green Gardens (Crater Rim (Witch Hazel Hill))",
+        "science_value": 0.95,
+        "dwell_time_h": 2.0,
+        "category": "crater_rim_witch_hazel_hill",
+        "rationale": "Muestra tomada por Perseverance en Crater Rim (Witch Hazel Hill) (Rock Core; litología según NASA: Serpentinite). Valor científico 0.95 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1433",
+        "location": "Crater Rim (Witch Hazel Hill)",
+        "sample_type": "Rock Core",
+        "rock_type": "Serpentinite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.25846404,
+          18.46172288
+        ]
+      },
+      "properties": {
+        "poi_id": "s28_main_river",
+        "name": "Main River (Crater Rim (Witch Hazel Hill))",
+        "science_value": 0.8,
+        "dwell_time_h": 2.0,
+        "category": "crater_rim_witch_hazel_hill",
+        "rationale": "Muestra tomada por Perseverance en Crater Rim (Witch Hazel Hill) (Rock Core; litología según NASA: Igneous/impactite). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1441",
+        "location": "Crater Rim (Witch Hazel Hill)",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous/impactite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.25789879,
+          18.46225085
+        ]
+      },
+      "properties": {
+        "poi_id": "s29_bell_island",
+        "name": "Bell Island (Crater Rim (Witch Hazel Hill))",
+        "science_value": 0.8,
+        "dwell_time_h": 2.0,
+        "category": "crater_rim_witch_hazel_hill",
+        "rationale": "Muestra tomada por Perseverance en Crater Rim (Witch Hazel Hill) (Rock Core; litología según NASA: Igneous/impactite). Valor científico 0.80 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "1483",
+        "location": "Crater Rim (Witch Hazel Hill)",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous/impactite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.25723123,
+          18.46088429
+        ]
+      },
+      "properties": {
+        "poi_id": "s30_gallants",
+        "name": "Gallants (Crater Rim (Krokodillen))",
+        "science_value": 0.9,
+        "dwell_time_h": 2.0,
+        "category": "crater_rim_krokodillen",
+        "rationale": "Muestra prevista por Perseverance en Crater Rim (Krokodillen) (Rock Core; litología según NASA: Igneous or Sedimentary). Valor científico 0.90 por la rúbrica del proyecto (tipo de muestra + litología), no por un dato de NASA.",
+        "source": "NASA/JPL Mars 2020 — Sampling Locations (M20_SAMPLE_v3.json)",
+        "sol": "TBD",
+        "location": "Crater Rim (Krokodillen)",
+        "sample_type": "Rock Core",
+        "rock_type": "Igneous or Sedimentary"
+      }
+    }
+  ]
+}

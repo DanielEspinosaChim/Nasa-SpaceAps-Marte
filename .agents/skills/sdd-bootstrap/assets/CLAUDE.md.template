@@ -1,0 +1,76 @@
+# [Nombre del proyecto]
+
+[Una o dos frases: qué es el proyecto y para quién.]
+
+## Stack
+
+- Lenguaje: [...]
+- Framework / runtime: [...]
+- Base de datos: [...]
+- Tests: [...]
+
+## Comandos
+
+- `[comando dev]`    — arranca el servidor en local
+- `[comando test]`   — ejecuta los tests (deben pasar antes de cada commit)
+- `[comando lint]`   — revisa el estilo (antes de cada PR)
+- `[comando build]`  — compila para producción
+
+## Estructura del proyecto
+
+- `[carpeta]/` — [qué contiene]
+- `[carpeta]/` — [qué contiene]
+- `[carpeta]/` — [qué contiene]
+
+## Convenciones
+
+- [Estilo de nombres, ej. camelCase para variables y funciones.]
+- [Dónde van los tests, ej. al lado del archivo: `foo.ts` + `foo.test.ts`.]
+- [Manejo de errores, ej. clases propias en `src/errors/`.]
+- [Patrón a seguir, ej. validar toda entrada del usuario antes de usarla.]
+
+## No hagas
+
+- No instalar dependencias sin avisar.
+- No subir archivos `.env*` ni ninguna credencial al repositorio.
+- No borrar código o archivos sin confirmar explícitamente conmigo.
+- [Zona prohibida específica del proyecto, si aplica.]
+- [Antipatrón específico del proyecto, si aplica.]
+
+## Flujo de trabajo
+
+- Para tareas grandes, refactors, o cambios que toquen más de 2 archivos:
+  usa Plan Mode. Muestra el plan completo y espera mi OK explícito antes
+  de tocar código.
+- Para bugs evidentes, correcciones puntuales o tareas atómicas de un solo
+  archivo: usa Build Mode y ejecuta directo.
+- Una tarea a la vez; al terminar, dime qué cambiaste para que lo revise.
+- Si no estás seguro al 80%, pregunta. No inventes.
+- **`docs/` se actualiza solo, sin que yo lo pida.** Al cerrar cualquier
+  tarea o sesión de trabajo relevante, agrega automáticamente una entrada
+  en `docs/` con fecha, qué se hizo, qué quedó pendiente y qué decisiones
+  se tomaron. Antes de empezar una tarea nueva, revisa `docs/` primero —
+  si el contexto ya está documentado ahí, no me lo vuelvas a preguntar.
+
+## Subagentes disponibles
+
+- **Coordinador**: no escribe código, divide tareas y decide el orden.
+- **Implementador**: escribe el código de la subtarea asignada.
+- **Tester**: corre y escribe tests, valida criterios de aceptación. No
+  modifica código de producción.
+- **Auditor de seguridad**: solo lectura. Revisa inyecciones, secrets,
+  validación de inputs, control de acceso y dependencias con CVEs.
+- [Subagentes adicionales definidos en la entrevista, con su responsabilidad
+  y permisos exactos.]
+
+## MCPs configurados
+
+- [Context7 / otros MCPs confirmados, y para qué se usa cada uno.]
+
+## Documentación
+
+- `spec/constitution/` — misión, stack y roadmap del proyecto.
+- `spec/features/` — spec, plan y tasks de cada feature.
+- `spec/features/000-seguridad-transversal/` — checklist de seguridad de
+  referencia para auditar cualquier módulo.
+- `docs/` — notas de sesión y memoria de trabajo.

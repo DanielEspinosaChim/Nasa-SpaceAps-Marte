@@ -1,0 +1,17 @@
+# Parámetros de la misión (feature 004). Valores de un rover GENÉRICO de demo,
+# no de Perseverance (su MMRTG entrega ~110 W). Se cambian aquí sin tocar código.
+energy:
+  e_per_m: 0.25        # Wh por metro recorrido
+  e_per_m_up: 2.0      # Wh extra por metro de ascenso
+  p_dwell_w: 60.0      # W consumidos mientras estudia un sitio
+energy_budget_wh: 12000.0
+max_time_h: 240.0
+max_radius_m: 10000.0  # walkback
+risk:
+  slope_penalty_start_deg: 10.0
+  slope_penalty_per_deg: 50.0   # metros equivalentes por grado sobre el umbral
+ga:
+  pop_size: 100
+  n_generations: 200
+  max_front_size: 30
+  timeout_s: 30.0
